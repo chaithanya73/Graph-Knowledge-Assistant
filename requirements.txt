@@ -1,0 +1,21 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# Environment & Config
+python-dotenv==1.0.1
+pydantic-settings==2.5.2
+
+# Neo4j Driver (Graph Database)
+neo4j==5.25.0
+
+# LLM & Embeddings (will use in later steps)
+openai==1.51.0
+sentence-transformers>=3.3.0
+
+# Document Parsing (will use in later steps)
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# Utilities
+python-multipart==0.0.12
